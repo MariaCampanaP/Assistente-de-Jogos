@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLW Agents</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="Logo E-sports nlw">
+    </header>
+
+    <main>
+        <section>
+            <div>
+             <h2 class="title">Assistente de Jogos</h2>
+             <p>Pergunte sobre estratégias, build e dicas para seus jogos!</p>
+
+             <form id="form">
+                <input id="apiKey" type="password" placeholder="informe a API KEY do Gemini" required>
+
+                <select id="gameSelect">
+                    <option value="">Selecione um jogo</option>
+                    <option value="thelegendofzelda">The Legend of Zelda: Breath of the Wild</option>
+                    <option value="thewitcher3">The Witcher III: Wild Hunt</option>
+                    <option value="reddeadredemption2">Red Dead Redemption II</option>
+                    <option value="eldenring">Elden Ring</option>
+                    <option value="darksouls">Dark Souls</option>
+                    <option value="minecraft">Minecraft</option>
+                    <option value="fortnite">Fortnite</option>
+                    <option value="grandtheftautoV">Grand Theft Auto V (GTA V)</option>
+                    <option value="portal2">Portal II</option>
+                    <option value="halflife2">Half-Life II</option>
+                    <option value="thelastofus">The Last of Us</option>
+                    <option value="godofwar">God of War</option>
+                    <option value="lifeisstrange">Life is Strange</option>
+                    <option value="masseffect2">Mass Effect II</option>
+                    <option value="discoelysium">Disco Elysium</option>
+                    <option value="hades">Hades</option>
+                    <option value="undertale">Undertale</option>
+                    <option value="celeste">Celeste</option>
+                    <option value="stardewvalley">Stardew Valley</option>
+                    <option value="papersplease">Papers, Please</option>
+                    <option value="persona5">Persona V</option>
+                    <option value="divinityoriginalsinII">Divinity: Original Sin II</option>
+                    <option value="doom">DOOM</option>
+                    <option value="callofduty4">Call of Duty IV: Modern Warfare</option>
+                    <option value="lol">League of Legends</option>
+                    <option value="overwatch">Overwatch</option>
+                    <option value="csgo">Counter-Strike: Global Offensive</option>
+                    <option value="residentevil4">Resident Evil IV Remake</option>
+                    <option value="amnesia">Amnesia: The Dark Descent</option>
+                    <option value="thesims2">The Sims II</option>
+                    <option value="citiesskylines">Cities: Skylines</option>
+                    <option value="sallyface">Sally Face</option>
+                    <option value="franbow">Fran Bow</option>
+                    <option value="littlemisfortune">Little Misfortune</option>
+
+                </select>
+
+                <input id="questionInput" type="text" placeholder="Ex: Melhor build para ADC..." required>
+                <button id="askButton">Perguntar</button>
+             </form>
+
+             <div id="aiResponse" class="hidden">
+                <div class="response-content">
+
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
