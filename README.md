@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=007F73&reversal=false"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=8A2BE2&reversal=false"/>
 
 # ☕︎︎ Assistente de Jogos
 
@@ -90,5 +90,5 @@ Para usar o assistente, é necessário ter uma chave (API Key) da Google Gemini 
     git clone https://github.com/MariaCampanaP/Assistemte-de-Jogos.git
     ```
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=007F73&reversal=false&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=8A2BE2&reversal=false&section=footer"/>
 
