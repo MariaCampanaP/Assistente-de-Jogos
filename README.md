@@ -27,6 +27,11 @@ Um projeto desenvolvido no evento NLW (Next Level Week) para criar um **assisten
 - Dark Souls
 - E muitos outros!
 
+<img width="1902" height="907" alt="Captura de tela 2025-10-17 170344" src="https://github.com/user-attachments/assets/396e32d7-a216-4e37-8886-4a8caec4fdaf" />
+<img width="1882" height="888" alt="Captura de tela 2025-10-17 170514" src="https://github.com/user-attachments/assets/43f89028-7666-4608-ba84-25a219178326" />
+<img width="1860" height="895" alt="Captura de tela 2025-10-17 170538" src="https://github.com/user-attachments/assets/d5414150-630f-43d8-891c-c1aef845017f" />
+
+
 ## ☕︎︎ Tecnologias utilizadas
 
 - **HTML5** para a estrutura.
